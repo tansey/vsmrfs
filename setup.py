@@ -26,18 +26,18 @@ setup(
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.7',
     ],
-    keywords='statistics biostatistics fdr hypothesis machinelearning',
+    keywords='statistics biostatistics machinelearning mrf graphical models',
 
     packages=find_packages(exclude=['contrib', 'docs', 'tests*']),
     install_requires=['numpy', 'scipy', 'matplotlib'],
     package_data={
-        'smoothfdr': [],
+        'vsmrfs': [],
     },
     entry_points={
         'console_scripts': [
-            'smoothfdr=smoothfdr:main',
-            'neuropre=neuropre:main',
-            'neuropost=neuropost:main',
+            'vsmrf-gen=generate_data:main',
+            'vsmrf-learn=run_node_learning:main',
+            'vsmrf-stitch=stitch_nodes:main',
         ],
     },
 )
