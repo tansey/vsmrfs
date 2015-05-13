@@ -1,4 +1,4 @@
-Vector-Space Markov Random Fields (VS-MRFs)
+Vector-Space Markov Random Fields
 ============================================
 
 ![Example of a learned VS-MRF](https://raw.githubusercontent.com/tansey/vsmrfs/master/data/mfp_top.png)
